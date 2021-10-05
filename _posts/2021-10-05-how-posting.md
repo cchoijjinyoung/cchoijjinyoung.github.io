@@ -1,7 +1,7 @@
 ---
 date: 2021-10-05
 title: "[GitBlog] 블로그 포스팅 방법"
-excerpt: "md 파일에 마크다운 문법으로 작성하여 GitBlog 첫 포스팅을 해보자!"
+excerpt: "포스팅을 연습해보자!"
 categories: 
     - Blog
 tags: 

@@ -19,7 +19,7 @@ locale                   : "ko-KR"
 title                    : "기록하는 개발자"
 title_separator          : "&#124"
 subtitle                 : "Version 1.0"
-name                     : "최진영"
+name                     : "최진영(Choi Jinyoung)"
 description              : "다양한 개발을 공부하는 블로그"
 url                      : "https://cchoijjinyoung.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
@@ -101,10 +101,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Choijinyoung"
+  name             : "Choi Jinyoung"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Seoul"
+  location         : "Republic of Korea"
   email            : "cgy7127@gmail.com"
   links:
     - label: "Email"
@@ -140,7 +140,7 @@ footer:
       # url:
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
-      # url:
+      url: "https://github.com/cchoijjinyoung/"
     - label: "Bitbucket"
       icon: "fab fa-fw fa-bitbucket"
       # url:
@@ -215,7 +215,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 10 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 

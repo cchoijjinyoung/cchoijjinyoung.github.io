@@ -13,11 +13,12 @@ last_modified_at: 2021-10-06
 
 # 1. navigation.yml 수정.
 - github.io 폴더 > _data 폴더  > navigation.yml
-```yml
+
+```
 # main links
 main:
   - title: "About"      # ex)Quick-Start-Guide 
-    url: /about/        # About 특정 링크로 연결.
+    url: /about/        # About 특정 링크로 연결. 아래에서 더 다뤄보겠다.
   - title: "Category"
     url: /categories/
   - title: "Tags"
@@ -37,3 +38,6 @@ author_profile: true
 ---
  # 여기서부터는 'About' page에 맞게 자기소개 적는 곳.
 ```
+
+> _data 폴더 > navigation.yml 파일에서 url을  
+> _page 폴더 > .md 파일에서 permalink 와 맞춰야지 작동하는 것 같다.

@@ -13,7 +13,6 @@ last_modified_at: 2021-10-06
 
 # 1. navigation.yml 수정.
 - github.io 폴더 > _data 폴더  > navigation.yml
-
 ```
 # main links
 main:

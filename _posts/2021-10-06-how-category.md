@@ -1,7 +1,7 @@
 ---
 date: 2021-10-06
 title: "[GitBlog] 카테고리 세팅하기"
-excerpt: "우측 상단 Quick-Start-Guide를 나만의 카테고리로 바꿔보자!"
+excerpt: "우측 상단 Quick-Start-Guide를 나만의 메뉴로 바꿔보자!"
 categories: 
     - Blog
 tags: 

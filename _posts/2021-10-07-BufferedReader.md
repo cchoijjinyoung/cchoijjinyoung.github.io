@@ -28,6 +28,7 @@ Scanner는 스페이스와 엔터를 경계로 인식하기 때문에 가공할 
   String이 아닌 다른 타입으로 입력을 받으려면 형변환은 필수다.
 
 ```java
+
 class BufferedReaderExam {
   public static void main(String[] args) {
     try { //예외처리 필수
@@ -39,3 +40,4 @@ class BufferedReaderExam {
     }
   }
 }
+```

@@ -1,7 +1,7 @@
 ---
 date: 2021-10-06
-title: "[Java] BufferedReader와 BufferedWriter"
-excerpt: "알고리즘을 공부하다 보니 Scanner보다 Buffer를 사용하는 것이 속도 면에서 훨씬 좋다고 들었다. 활용하기 위해 공부내용을 적어보자"
+title: "[Java] BufferedReader/Writer와 StringTokenizer"
+excerpt: "알고리즘을 공부하다 보니 Scanner보다 Buffer를 사용하는 것이 속도 면에서 훨씬 좋다고 들었다. 공부 내용을 적어본다."
 categories: 
     - Java
 tags: 

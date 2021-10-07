@@ -11,7 +11,7 @@ toc_sticky: true
 last_modified_at: 2021-10-07 
 ---
 
-# BufferedReader 와 BufferedWriter (입/출력)
+# 1. BufferedReader 와 BufferedWriter (입/출력)
 ---
 자바를 처음 공부하면 Scanner를 이용해 입력받는 것을 배운다.   
 Scanner는 스페이스와 엔터를 경계로 인식하기 때문에 가공할 필요가 없어서 사용하기 매우 편리하다.   
@@ -21,13 +21,13 @@ Scanner는 스페이스와 엔터를 경계로 인식하기 때문에 가공할 
 >Scanner는 놀이터의 흙을 옮길 때 삽질마다 이동하는 반면에,   
 >**BufferedReader**는 `buffer`라는 수레에 담았다가 한 번에 가져간다고 생각하면 이해가 편하다.
 
-# BufferedReader 사용방법
+# 2. BufferedReader 사용방법
 ---
 - BufferedReader의 readLine()을 사용하면 데이터를 한 줄 단위로 읽을 수 있다.
 - readLine함수의 리턴 값은 String 으로 고정된다.
   String이 아닌 다른 타입으로 입력을 받으려면 형변환은 필수다.
 
-```java
+```java   
 
 class BufferedReaderExam {
   public static void main(String[] args) {

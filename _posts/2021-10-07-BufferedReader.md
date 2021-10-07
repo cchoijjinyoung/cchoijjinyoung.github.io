@@ -23,3 +23,19 @@ Scanner는 스페이스와 엔터를 경계로 인식하기 때문에 가공할 
 
 # BufferedReader 사용방법
 ---
+- BufferedReader의 readLine()을 사용하면 데이터를 한 줄 단위로 읽을 수 있다.
+- readLine함수의 리턴 값은 String 으로 고정된다.
+  String이 아닌 다른 타입으로 입력을 받으려면 형변환은 필수다.
+
+```java
+class BufferedReaderExam {
+  public static void main(String[] args) {
+    try { //예외처리 필수
+      BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+      int num = Integer.parseInt(br.readLine());
+      // 리턴 값은 String으로 고정되기 때문에 형변환 필수!
+      br.close(); // 입출력이 끝난 후 닫아준다.
+    }
+  }
+}
